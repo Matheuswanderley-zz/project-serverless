@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "masterdb",
+    "password": "i0n4d34d",
+    "database": "mydb",
+    "host": "terraform-20200422140516514400000001.cd5qgsl64lyl.us-west-2.rds.amazonaws.com",
+    "dialect": "mysql",
+    "port": "3306"
+    
+  },
+  "test": {
+    "username": "masterdb",
+    "password": "i0n4d34d",
+    "database": "mydb",
+    "host": "terraform-20200422140516514400000001.cd5qgsl64lyl.us-west-2.rds.amazonaws.com",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "masterdb",
+    "password": "i0n4d34d",
+    "database": "mydb",
+    "host": "terraform-20200422140516514400000001.cd5qgsl64lyl.us-west-2.rds.amazonaws.com",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}
