@@ -69,8 +69,15 @@ plugins:
 #    - exclude-me-dir/**
 
 functions:
-  hello:
-    handler: handler.hello
+  verify-token:
+        handler: functions/autorizer/authorize.handler
+  Login:
+      handler: functions/login/login.handler
+       events:
+        - http:
+            method: post
+            path: /api/v1/login
+
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
 #    Check the event documentation for details
